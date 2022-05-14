@@ -20,7 +20,7 @@
 </script>
 
 
-<section transition:fly="{{ duration: 500, delay: 500}}" >
+<section transition:fly="{{ duration: 500}}" >
   <SearchMovies />
   <PopularMovies {popular}/>
 </section>

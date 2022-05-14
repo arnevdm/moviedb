@@ -13,9 +13,10 @@
 <script>
   export let movieDetail;
   import { fly } from 'svelte/transition';
+  import.meta.env.VITE_API
 </script>
 
-<div class="movie-details" transition:fly="{{ duration: 500, delay: 500}}">
+<div class="movie-details" transition:fly="{{ duration: 500}}">
   <div class="img-container">
     <img src={'https://image.tmdb.org/t/p/original' + movieDetail.backdrop_path}
     alt={movieDetail.title}>

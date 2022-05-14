@@ -12,7 +12,7 @@
 </script>
 
 <script>
-
+  import.meta.env.VITE_API
   import MovieCard from "../../components/MovieCard.svelte";
   export let searchedMovie;
 </script>
